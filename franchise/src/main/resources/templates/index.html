@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bayilik Başvuru Formu</title>
+</head>
+<body>
+<h1>Bayilik Başvuru Formu</h1>
+
+<br>
+
+    <tr>
+<form action="/franchise/create" method="post">
+    <td><b>İSİM SOYİSİM: </b></td><td><input required type="text" name="username"/><br><br></td>
+    <td><b>TC KİMLİK: </b></td><td><input required type="text" name="tc"/><br><br></td>
+    <td><b>ADRES: </b></td><td><textarea required cols="20" name="address" rows="3"></textarea><br><br></td>
+    <td><b>TELEFON: </b></td><td><input required type="phone" name="phone"/><br><br></td>
+    <td><b>E-POSTA: </b></td><td><input required type="e-posta" name="ePost"/><br><br></td>
+    <td><b>DOĞUM TARİHİ: </b></td><td><input required type="text" name="birthDate" id="dogum"/><br><br></td>
+    <td><b>PERAKENDE TİCARETİ İLE UĞRAŞTINIZ MI?: </b></td>
+    </td><td>Evet<input type="radio" required name="status"/></td>
+</td><td>Hayır<input type="radio" required name="status"/><br><br>
+    <td><b>LOKUMCU BABA’YI TERCİH ETMENİZİN SEBEBİ NEDİR?: </b></td><td><textarea cols="20" required name="reason"
+                                                                     rows="3"></textarea><br><br></td>
+    <td><b>HANGİ İL/İLÇE/SEMT İÇİN LOKUMCU BABA İŞLETMECİLİĞİ DÜŞÜNÜYORSUNUZ? </b></td><td><input type="text" required name="city" id="semt"/><br><br></td>
+    <td><b>YATIRIM MİKTARINIZ NEDİR? </b></td><td><input type="text" required name="balance" d="miktar"/><br><br></td>
+    <td><b>EKLEMEK İSTEDİKLERİNİZ: </b></td><td><textarea cols="20" name="toAdd" rows="3"></textarea><br><br></td>
+    <br>
+    <br>
+    <br>
+    <button type="submit">Gönder</button>
+</form>
+    </tr>
+</body>
+</html>
